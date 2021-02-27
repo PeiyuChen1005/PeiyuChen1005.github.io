@@ -177,15 +177,17 @@
     }
     
     #my-image{
-        margin-top: 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 10px;
-        border-radius: 150px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 1%;
+        border-radius: 50%;
+        width: 90%;
+        height: 100%;
     }
     #my-image2{
-        width: auto;
-        height: auto;
+        width: 90%;
+        height: 100%;
     }
     heading {
     
@@ -195,18 +197,18 @@
     }
     
     .sidebar {
-        position: fixed;
+        position:relative;
         top: 1%;
         bottom: 1%;
-        width: 90%;
+        width: 100%;
         background-color: #fff;
     }
     
     .content {
-        position:fixed;
+        position:relative;
         top: 1%;
         bottom: 1%;
-        width: 90%;
+        width: 100%;
         background-color: #fff;
         overflow-y: auto;
     }
