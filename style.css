@@ -91,19 +91,19 @@ heading {
 
 .sidebar {
     position: fixed;
-    top: 40px;
-    bottom: 40px;
-    left: 200px;
-    width: 400px;
+    top: 4%;
+    bottom: 4%;
+    left: 15%;
+    width: 30%;
     background-color: #fff;
 }
 
 .content {
     position: fixed;
-    top: 40px;
-    margin-right: 200px;
-    bottom: 40px;
-    left: 601px;
+    top: 4%;
+    margin-right: 15%;
+    bottom: 4%;
+    left: 45%;
     overflow-y: auto;
     background-color: #fff;
 }
