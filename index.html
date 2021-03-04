@@ -8,7 +8,7 @@
     <link rel="icon" href="assets/imgs/icon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="assets/imgs/icon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/8a9acc9a7b.js" crossorigin="anonymous"></script>
-
+    <script src="script.js"></script>
     <style>
         ::-webkit-scrollbar {display:none}
     </style>
@@ -200,8 +200,36 @@
                 <p class="p-append"></p>
             </a>
             </td>
+            <p class="p-center">My Selected EP(Click picture to play)</p>
         </tr>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="assets/imgs/ep3.jpg" width=100% style="CURSOR: pointer" onclick='window.open("https://music.163.com/#/song?id=1420219493")' >
+            </div>
+          
+            <div class="mySlides fade">
+                <img src="assets/imgs/ep2.png" width=100% style="CURSOR: pointer" onclick='window.open("https://music.163.com/#/song?id=1377224700")' >
+            </div>
+          
+            <div class="mySlides fade">
+                <img src="assets/imgs/ep1.png" width=100% style="CURSOR: pointer" onclick='window.open("https://music.163.com/#/song?id=1425421173")' >
+            </div>
+          
+             <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
     </div>
+
+    
 
 </body>
 
